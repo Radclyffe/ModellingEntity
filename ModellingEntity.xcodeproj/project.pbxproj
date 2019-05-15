@@ -12,6 +12,10 @@
 		F1A9A843228BE75200D7B24D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1A9A841228BE75200D7B24D /* Main.storyboard */; };
 		F1A9A845228BE75300D7B24D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1A9A844228BE75300D7B24D /* Assets.xcassets */; };
 		F1A9A848228BE75300D7B24D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1A9A846228BE75300D7B24D /* LaunchScreen.storyboard */; };
+		F1A9A850228BE7B400D7B24D /* CoffeeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9A84F228BE7B400D7B24D /* CoffeeMachine.swift */; };
+		F1A9A852228C032B00D7B24D /* Machine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9A851228C032B00D7B24D /* Machine.swift */; };
+		F1A9A854228C052C00D7B24D /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9A853228C052C00D7B24D /* RoundedButton.swift */; };
+		F1A9A856228C070A00D7B24D /* MadeCoffeeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9A855228C070A00D7B24D /* MadeCoffeeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F1A9A844228BE75300D7B24D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1A9A847228BE75300D7B24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1A9A849228BE75300D7B24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1A9A84F228BE7B400D7B24D /* CoffeeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMachine.swift; sourceTree = "<group>"; };
+		F1A9A851228C032B00D7B24D /* Machine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machine.swift; sourceTree = "<group>"; };
+		F1A9A853228C052C00D7B24D /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		F1A9A855228C070A00D7B24D /* MadeCoffeeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadeCoffeeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 		F1A9A83C228BE75200D7B24D /* ModellingEntity */ = {
 			isa = PBXGroup;
 			children = (
+				F1A9A84F228BE7B400D7B24D /* CoffeeMachine.swift */,
 				F1A9A83D228BE75200D7B24D /* AppDelegate.swift */,
 				F1A9A83F228BE75200D7B24D /* ViewController.swift */,
+				F1A9A853228C052C00D7B24D /* RoundedButton.swift */,
+				F1A9A855228C070A00D7B24D /* MadeCoffeeButton.swift */,
 				F1A9A841228BE75200D7B24D /* Main.storyboard */,
+				F1A9A851228C032B00D7B24D /* Machine.swift */,
 				F1A9A844228BE75300D7B24D /* Assets.xcassets */,
 				F1A9A846228BE75300D7B24D /* LaunchScreen.storyboard */,
 				F1A9A849228BE75300D7B24D /* Info.plist */,
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1A9A840228BE75200D7B24D /* ViewController.swift in Sources */,
+				F1A9A854228C052C00D7B24D /* RoundedButton.swift in Sources */,
+				F1A9A856228C070A00D7B24D /* MadeCoffeeButton.swift in Sources */,
+				F1A9A852228C032B00D7B24D /* Machine.swift in Sources */,
 				F1A9A83E228BE75200D7B24D /* AppDelegate.swift in Sources */,
+				F1A9A850228BE7B400D7B24D /* CoffeeMachine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
